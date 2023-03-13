@@ -1,14 +1,14 @@
 # EDA on Play Store App Reviews
 This project explores two datasets: one with basic information and another with user reviews for apps available on the Google Play Store. The goal is to identify the important characteristics that influence app engagement and success. An app is considered successful if it has a high average user rating, a good number of positive reviews, a good number of monthly average users, and high revenue per customer, among other factors.
 
-Datasets
+## Datasets
 The two datasets used in this project are:
 
 Play_Store_Data.csv: This dataset contains basic information about the apps, including the app name, category, size, rating, number of reviews, number of installs, type (free or paid), and content rating.
 
 User_reviews.csv: This dataset contains user reviews for the apps, including the app name, translated review, sentiment (positive, negative, or neutral), sentiment polarity, sentiment subjectivity, price, genre, last updated date, current version, Android version, rating group, and revenue.
 
-Agenda
+## Agenda
 The analysis of the datasets covers the following topics:
 
 Correlation heatmap
@@ -20,7 +20,7 @@ Average price of paid apps in each category
 Most popular apps
 App size analysis
 App reviews analysis
-Results
+## Results
 Some of the key findings from the analysis are:
 
 There is a strong positive correlation between the number of reviews and installs.
@@ -34,12 +34,12 @@ The most popular apps are those with more reviews, whether positive, negative, o
 The apps in the Family category are the most competitive.
 The most popular app sizes are between 10 MB and 20 MB.
 The most common words used in user reviews are "good," "great," "app," "useful," and "love."
-Challenges
+## Challenges
 The main challenges faced during the project were:
 
 Reading and understanding the datasets and the problem statement.
 Devising a solution to the problem based on the business KPIs for app development.
 Handling errors, duplicates, and NaN values in the datasets.
 Designing multiple visualizations to summarize the information in the datasets and communicate the results and trends effectively.
-Conclusion
+## Conclusion
 The analysis provides insights into the characteristics that influence the success of apps in the Google Play Store. Developers can use this information to make data-driven decisions when creating and marketing their apps. The findings can also be used to benchmark app performance and track progress over time.
